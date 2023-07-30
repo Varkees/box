@@ -1,6 +1,22 @@
- h1{
-    color: red;
-    text-align: center;
-    font-weight: bolder;
-    width: 320px;
- }
+*{
+  background-color:blue
+}.container{
+  color:red;
+  display: flex;
+  border: 1px solid;
+  height:300px;
+  align-items:start;
+  justify-content:center;
+  flex-direction:column-reverse;
+}
+.jack, .varkees, .A{
+  padding:20px;
+  border: 20px;
+  margin:20px
+}.jack{
+  background-color:yellow;
+}.varkees{
+  background-color:green;
+}.A{
+  background-color:white;
+}
