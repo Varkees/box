@@ -1,22 +1,90 @@
-*{
-  background-color:blue
-}.container{
+ 
+ *{
+  background-color: gainsboro;
+ }h1{
+display: flex;
+border: 3px solid black;
+background-color: blue;
+color:white;
+padding: 10px 10px 10px 50px;
+margin:20px;
+width: 190px;
+
+ }
+ span{
   color:red;
-  display: flex;
-  border: 1px solid;
-  height:300px;
-  align-items:start;
-  justify-content:center;
-  flex-direction:column-reverse;
-}
-.jack, .varkees, .A{
-  padding:20px;
-  border: 20px;
-  margin:20px
-}.jack{
-  background-color:yellow;
-}.varkees{
-  background-color:green;
-}.A{
-  background-color:white;
-}
+  padding-left:50px;
+  background-color: gainsboro;
+ }
+ P{
+  
+  background-color: gray;
+  border: 2px solid;
+  padding: 20px 40px 20px 40px;
+  margin: 20px;
+
+ }
+
+ 
+ /* }.div1{
+  background-color: blue;
+  border: 3px solid black;
+  color: white;
+  width:40px;
+  padding:20px 20px 20px 50px ;
+  margin:6px;
+  font-size: x-large;
+  font-style: inherit;
+ }.div2{
+   background-color:red;
+   border:3px solid black;
+   font-style: inherit;
+   font-size:x-large;
+   width:40px;
+   padding:20px 20px 20px 50px;
+   margin: 5px;
+   color:white
+ }.div3{
+   background-color:green;
+   border:3px solid black;
+   font-size:x-large;
+   width:40px;
+   margin:5px;
+   padding:20px 20px 20px 50px;
+   color:white;
+ } */
+ .container{
+  border: 5px solid black;
+  background-color: gray;
+  display:flex; 
+  align-items: start;
+ justify-content: start;
+ flex-basis: 100px;
+ flex-wrap: wrap;
+ flex-direction: row;
+ 
+ }
+ 
+
+ .div1, .div2, .div3{
+   border:3px solid black;
+   font-size:x-large;
+   margin:5px;
+   padding:30px 20px 20px 50px;
+   color:white;
+    
+ }
+ .div1{
+ background-color: red;
+ flex-grow: 1;
+ order:1 ;
+ }.div2{
+  background-color:blue;
+  flex-grow: 2;
+  order: 2;
+  
+ }.div3{
+  background-color: green;
+  flex-grow: 3;
+  order: 3;
+ }
