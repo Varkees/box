@@ -69,11 +69,31 @@
     background-color: white;
     position: sticky;
     top: 2px;
+    
+ }body{
+    padding:30px;
+    border:7px solid white ;
+    margin: 0;
  }.jagan{
-    border: 2px solid black;
-    color: black;
-    background:white;
-    height: 300px;
+    padding: inherit;
+    border: inherit;
+    margin: inherit;
+   background-image: conic-gradient(red,blue,green);
+  
  }.doss{
-
+    padding: inherit;
+    border: inherit;
+    margin: inherit;
+     background-image: radial-gradient( circle, yellow, red, green,yellow);
+    
+    
+ }.varkees{
+    padding: inherit;
+    border: inherit;
+    margin: inherit;
+    background-image: linear-gradient(to right, orange, blue, red, green);
+    border-radius: 50%; 
+  
  }
+ 
+ 
