@@ -1,0 +1,54 @@
+ /* .div{
+    background-color: aqua;
+ }@media  (max-width:1200px){
+    .div{
+        background-color: yellow;
+    } .div p{
+        background-color: green;
+    }
+ }
+ @media print, (max-width:500px){ 
+    .div{
+     background-color:red;
+     font-size: .5cm;
+     padding: 3px;
+     border: 3px solid black;
+     color:white;
+    }
+    .div p{
+        background-color: orange;
+
+    }
+ }
+ @media (orientation:landscape){
+          .div{
+            font-size: 10mm;
+            background-color: red;
+          }
+ }@media(orientation:portrait){
+    .div{
+        background-color: gray;
+        color: green;
+        font-size: xx-large;
+    }
+ } */
+
+                  /*PRACTIC*/
+ @media (min-width:500px){
+    .div{
+        background-color: aqua;
+        border: 3px solid;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        padding-left: 11cm;
+    }
+ }  @media(max-width:500px){
+    .div{
+        background-color: red;
+        border: 3px black;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        padding-left: 11cm;
+    }
+
+ }
